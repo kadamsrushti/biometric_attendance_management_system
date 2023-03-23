@@ -1,0 +1,127 @@
+.form-style-5{
+  display: block;
+  margin: 0px auto; 
+  max-width: 200px;
+  padding: 5px;
+}
+.form-style-5 input[type="date"]{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background:  #b1dae7;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  margin: 0;
+  outline: 0;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  background-color:  #b1dae7;
+  color: #b1dae7;
+  -webkit-box-shadow:  #b1dae7;
+  box-shadow:  #b1dae7;
+  margin-bottom: 10px;
+}
+.form-style-5 input[type="date"]:focus{
+  background:  #b1dae7;
+}
+
+.form-style-5 input[type="submit"], 
+.form-style-5 button {
+  position: relative;
+  display: block;
+  padding: 8px;
+  color: #FFF;
+  margin: 0 auto;
+  background:  #b1dae7;
+  font-size: 14px;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+  border: 1px solid #388994;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 button:hover {
+  background:  #b1dae7;
+}
+
+h1{
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: #9999ff;
+ }
+.tbl-content{
+  height: 585px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid #9999ff;
+}
+th{
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 13px;
+  color: #fff;
+  border-bottom:  #b1dae7;
+}
+.error {
+  color: red;
+  text-align: center;
+}
+section {
+  margin: 0px 50px;
+  overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:  #b1dae7; 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow:  #b1dae7; 
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    margin: 0px 4px;
+  }
+  h1 {
+    font-size: 19px;
+  }
+  th {
+    font-size: 11px;
+    padding: 5px 2px;
+  }
+  .form-style-5 input[type="submit"], 
+  .form-style-5 input[type="date"],
+  .form-style-5 button {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+ }
